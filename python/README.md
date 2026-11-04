@@ -5,7 +5,7 @@ colorFrom: gray
 colorTo: indigo
 sdk: gradio
 sdk_version: 6.27.0
-python_version: "3.12"
+python_version: "3.14"
 app_file: app.py
 pinned: false
 license: apache-2.0
@@ -92,6 +92,8 @@ image_path, report = client.predict(
 MCP clients: add this Space's `/gradio_api/mcp/` endpoint.
 
 ## Run locally
+
+Requires Python 3.11+ (tested on 3.14).
 
 ```bash
 pip install -r requirements.txt

@@ -61,6 +61,9 @@ or a third-party API. The CI browser test **fails if the page makes an upload or
 
 ## Run it locally
 
+Requires **Node.js 26 LTS** or newer (see `web/.nvmrc`) for the web app, and **Python 3.11+** for
+the Python app (CI uses Python 3.14).
+
 ```bash
 # Web app
 cd web
